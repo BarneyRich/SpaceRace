@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7C23FA2C285752B50067CE4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C23FA2B285752B50067CE4C /* AppDelegate.swift */; };
 		7C23FA2E285752B50067CE4C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7C23FA2D285752B50067CE4C /* GameScene.sks */; };
-		7C23FA30285752B50067CE4C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7C23FA2F285752B50067CE4C /* Actions.sks */; };
 		7C23FA32285752B50067CE4C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C23FA31285752B50067CE4C /* GameScene.swift */; };
 		7C23FA34285752B50067CE4C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C23FA33285752B50067CE4C /* GameViewController.swift */; };
 		7C23FA37285752B50067CE4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C23FA35285752B50067CE4C /* Main.storyboard */; };
@@ -18,6 +17,8 @@
 		7C23FA46285752B70067CE4C /* SpaceRaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C23FA45285752B70067CE4C /* SpaceRaceTests.swift */; };
 		7C23FA50285752B70067CE4C /* SpaceRaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C23FA4F285752B70067CE4C /* SpaceRaceUITests.swift */; };
 		7C23FA52285752B70067CE4C /* SpaceRaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C23FA51285752B70067CE4C /* SpaceRaceUITestsLaunchTests.swift */; };
+		7C23FA62285758A40067CE4C /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7C23FA60285758A40067CE4C /* explosion.sks */; };
+		7C23FA63285758A40067CE4C /* starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7C23FA61285758A40067CE4C /* starfield.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,6 @@
 		7C23FA28285752B50067CE4C /* SpaceRace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceRace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C23FA2B285752B50067CE4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C23FA2D285752B50067CE4C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		7C23FA2F285752B50067CE4C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		7C23FA31285752B50067CE4C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		7C23FA33285752B50067CE4C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		7C23FA36285752B50067CE4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,6 +52,8 @@
 		7C23FA4B285752B70067CE4C /* SpaceRaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceRaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C23FA4F285752B70067CE4C /* SpaceRaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceRaceUITests.swift; sourceTree = "<group>"; };
 		7C23FA51285752B70067CE4C /* SpaceRaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceRaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7C23FA60285758A40067CE4C /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
+		7C23FA61285758A40067CE4C /* starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = starfield.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +104,10 @@
 		7C23FA2A285752B50067CE4C /* SpaceRace */ = {
 			isa = PBXGroup;
 			children = (
+				7C23FA60285758A40067CE4C /* explosion.sks */,
+				7C23FA61285758A40067CE4C /* starfield.sks */,
 				7C23FA2B285752B50067CE4C /* AppDelegate.swift */,
 				7C23FA2D285752B50067CE4C /* GameScene.sks */,
-				7C23FA2F285752B50067CE4C /* Actions.sks */,
 				7C23FA31285752B50067CE4C /* GameScene.swift */,
 				7C23FA33285752B50067CE4C /* GameViewController.swift */,
 				7C23FA35285752B50067CE4C /* Main.storyboard */,
@@ -238,8 +241,9 @@
 				7C23FA37285752B50067CE4C /* Main.storyboard in Resources */,
 				7C23FA2E285752B50067CE4C /* GameScene.sks in Resources */,
 				7C23FA39285752B70067CE4C /* Assets.xcassets in Resources */,
+				7C23FA62285758A40067CE4C /* explosion.sks in Resources */,
+				7C23FA63285758A40067CE4C /* starfield.sks in Resources */,
 				7C23FA3C285752B70067CE4C /* LaunchScreen.storyboard in Resources */,
-				7C23FA30285752B50067CE4C /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +453,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,7 +465,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -477,7 +482,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -488,7 +494,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
